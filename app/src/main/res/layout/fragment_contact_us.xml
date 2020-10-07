@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.ContactUsFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/our_team_is_happy_to_answer_your_questions_fill_out_the_form_we_ll_be_in_touch_as_soon_as_possible">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtText"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:longClickable="false"
+                android:hint="@string/first_name"
+                android:textColor="@color/black"
+                android:imeOptions="actionNext"
+                android:paddingBottom="20dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:maxLines="1"
+                android:longClickable="false"
+                android:hint="@string/last_name"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:imeOptions="actionNext"
+                android:paddingBottom="20dp">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:longClickable="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:hint="@string/email"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:paddingBottom="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:longClickable="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:hint="@string/mobile_number"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:paddingBottom="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1"
+            android:longClickable="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:hint="@string/subject"
+            android:textColor="@color/black"
+            android:imeOptions="actionNext"
+            android:paddingBottom="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:longClickable="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:hint="@string/message"
+            android:textColor="@color/black"
+            android:imeOptions="actionDone"
+            android:paddingBottom="20dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+        android:text="@string/submit"
+        android:background="@drawable/button_background_blue">
+
+    </Button>
+
+</RelativeLayout>
+</FrameLayout>

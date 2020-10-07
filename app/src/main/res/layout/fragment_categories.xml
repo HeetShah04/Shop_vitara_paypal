@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#CAE4E3E3"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CategoriesFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:background="@color/light_white"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="1dp"
+        android:text="@string/shop_by_category">
+
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:scrollbars="none">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
+</FrameLayout>

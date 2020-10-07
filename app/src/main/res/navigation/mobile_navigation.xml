@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.android.shop_vitara.Fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.android.shop_vitara.Fragments.AboutUsFragment"
+        android:label="@string/nav_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_product_description"
+        android:name="com.android.shop_vitara.Fragments.ProductDescriptionFragment"
+        android:label="@string/nav_product_description"
+        tools:layout="@layout/fragment_product_description" />
+    <fragment
+        android:id="@+id/nav_view_cart"
+        android:name="com.android.shop_vitara.Fragments.CartFragment"
+        android:label="@string/view_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_orderhistory"
+        android:name="com.android.shop_vitara.Fragments.MyOrdersFragment"
+        android:label="@string/my_orders"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.android.shop_vitara.Fragments.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/nav_return_policy"
+        android:name="com.android.shop_vitara.Fragments.ReturnPolicyFragment"
+        android:label="@string/return_policy"
+        tools:layout="@layout/fragment_return_policy" />
+    <fragment
+        android:id="@+id/nav_privacy_policy"
+        android:name="com.android.shop_vitara.Fragments.PrivacyPolicyFragment"
+        android:label="@string/privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/nav_terms_and_condition"
+        android:name="com.android.shop_vitara.Fragments.TermsandConditionFragment"
+        android:label="@string/terms_amp_condition"
+        tools:layout="@layout/fragment_termsand_condition" />
+<dialog android:id="@+id/nav_logout"
+    tools:layout="@layout/fragment_log_out"
+    android:name="com.android.shop_vitara.Fragments.Log_outFragment"
+    android:label="Logout"/>
+</navigation>

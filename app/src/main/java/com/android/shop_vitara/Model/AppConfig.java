@@ -1,0 +1,43 @@
+package com.android.shop_vitara.Model;
+
+public class AppConfig {
+    public static final String BASE_URL = "http://192.168.0.103/";
+    public static final String SOAP_URL = "http://tempuri.org/";
+    public static final String SOAP_ADDRESS = BASE_URL + "WebService.asmx";
+    public static final String SOAP_LOGIN = "Login";
+    public static final String ACTION_LOGIN = SOAP_URL + SOAP_LOGIN;
+    public static final String SOAP_COUNTRY = "Getcountry";
+    public static final String ACTION_COUNTRY = SOAP_URL + SOAP_COUNTRY;
+    public static final String SOAP_STATES = "GetStates";
+    public static final String ACTION_STATE = SOAP_URL + SOAP_STATES;
+    public static final String SOAP_REGISTER = "Register";
+    public static final String ACTION_REGISTER = SOAP_URL + SOAP_REGISTER;
+    public static final String SOAP_BANNER = "bindBanner";
+    public static final String ACTION_BANNER = SOAP_URL + SOAP_BANNER;
+    public static final String SOAP_CATEGORIES = "getAllCategory";
+    public static final String ACTION_CATEGORIES = SOAP_URL + SOAP_CATEGORIES;
+    public static final String SOAP_PRODUCTIMAGE = "productImages";
+    public static final String ACTION_PRODUCTIMAGE = SOAP_URL + SOAP_PRODUCTIMAGE;
+    public static final String SOAP_ADDTOCART = "AddtoCart";
+    public static final String ACTION_ADDTOCART = SOAP_URL + SOAP_ADDTOCART;
+    public static final String VIEW_CART = "ViewCart";
+    public static final String ACTION_VIEW_CART = SOAP_URL + VIEW_CART;
+    public static final String SOAP_UPDATEQTY = "Addquantity";
+    public static final String ACTION_QTY = SOAP_URL + SOAP_UPDATEQTY;
+    public static final String SOAP_DELETECARTPDt = "Deletecartpdt";
+    public static final String ACTION_DELETE_CART_PDT = SOAP_URL + SOAP_DELETECARTPDt;
+    public static final String SOAP_ORDER_HISTORY = "OrderHistory";
+    public static final String ACTION_ORDER_HISTORY = SOAP_URL + SOAP_ORDER_HISTORY;
+    public static final String SOAP_ORDER_HISTORY_DETAIL = "orderhistorydetail";
+    public static final String ACTION_ORDER_HISTORY_DETAIL = SOAP_URL + SOAP_ORDER_HISTORY_DETAIL;
+    public static final String SOAP_CONTACTUS = "Contactus";
+    public static final String ACTION_CONTACTUS = SOAP_URL + SOAP_CONTACTUS;
+    public static final String SOAP_UPDATEADD = "updateadd";
+    public static final String ACTION_UPDATEADD =SOAP_URL+SOAP_UPDATEADD ;
+    public static final String SOAP_ORDERSUMMARY= "ordersummary";
+    public static final String ACTION_ORDERSUMMARY =SOAP_URL+SOAP_ORDERSUMMARY ;
+    public static final String SOAP_EMPTYCART ="EmptyCart" ;
+    public static final String ACTION_EMPTYCART =SOAP_URL+SOAP_EMPTYCART;
+    public static final String SOAP_ORDERADDDETAIL="Orderaddmaster";
+    public static final String ACTION_ORDERADDDETAIL =SOAP_URL+SOAP_ORDERADDDETAIL;
+}

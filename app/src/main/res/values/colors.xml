@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGray">#484848</color>
+    <color name="red">#FF0000</color>
+    <color name="lightGray">#A5A0A0</color>
+    <color name="light_white">#F7F3F3</color>
+    <color name="orange">#FF4500</color>
+    <color name="grad1">#C04848</color>
+    <color name="grad2">#480048</color>
+</resources>

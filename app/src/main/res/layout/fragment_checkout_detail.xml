@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.CheckoutDetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ordersuccessful" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:gravity="center"
+            android:text="Order Placed Successfully..."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/confirmed_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:text="Continue Shopping"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</FrameLayout>
