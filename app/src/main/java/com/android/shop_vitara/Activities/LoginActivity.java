@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText log_mno, log_pwd;
     Button btn_log;
     Button btn_signup;
-    String mno, pwd;
+    String mobile, pwd;
     PreferenceHelper preferenceHelper;
     private SoapObject response;
     TextView txtforgotpassword;
@@ -54,9 +54,9 @@ public class LoginActivity extends AppCompatActivity {
         btn_log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mno = log_mno.getText().toString();
+                mobile = log_mno.getText().toString();
                 pwd = log_pwd.getText().toString();
-                if (mno.equals("")) {
+                if (mobile.equals("")) {
 
                 }
                 if (pwd.equals("")) {
